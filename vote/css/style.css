@@ -46,3 +46,10 @@ label{
 #minor{
 	display: none;
 }
+.modal-title{
+	font-size: 3em;
+	text-align: center;
+}
+.close{
+	font-size: 3em;
+}
