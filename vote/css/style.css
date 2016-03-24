@@ -1,0 +1,48 @@
+.modal {
+  text-align: center;
+}
+
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+label{
+	font-size: 1.5em;
+}
+.form-control{
+	font-size: 2em;
+	padding: 1em 0.5em 1em 0.5em;
+}
+.btn-info{
+	padding: .5em;
+	font-size: 1.8em;
+}
+.btn-success{
+	padding: .5em;
+	font-size: 1.8em;
+}
+.btn-primary{
+	margin-top: 1em;
+	padding: .5em;
+	font-size: 1.8em;
+}
+.jumbotron{
+	text-align: center;
+}
+#confirmed{
+	display: none;
+}
+#minor{
+	display: none;
+}

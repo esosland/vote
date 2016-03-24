@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/moments.js"></script>
+    <title>Vote Now!!</title>
+  </head>
+  <body>
+
+
+  <!--  modal start -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+        
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title">Confirm Your Age</h3>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" class="form-control" id="dob" placeholder="Date Of Birth">
+              </div>
+        
+              <button id="submit" class="btn btn-info pull-right">Submit!</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  <!--   model end -->
+
+
+ <!--  header start -->
+    <div class="jumbotron">
+      <h1>Vote Now!!!</h1>
+      <button class="btn btn-lg btn-success" id="confirm" data-toggle="modal" href="#myModal">Confirm Your age</button>
+    </div>
+  <!-- header end -->
+
+  <!-- Main body -->
+    <div class="container">
+      <div class="jumbotron" id="initial">
+        <h1>WARNING:</h1> <h2>YOU HAVE NOT CONFIRMED YOUR AGE!!!!</h2>
+        <p class="lead">Please confirm your age above by pressing the Green Button</p>
+      </div>
+
+       <div class="jumbotron" id="confirmed">
+        <h1>Welcome!</h1> <h2>Please read below for Information about voting</h2>
+        <a class="btn btn-lg btn-primary" target="_blank" href="https://www.usa.gov/register-to-vote" role="button">Register Here!</a>
+      </div>
+
+      
+       <div class="jumbotron" id="minor">
+        <h1>Welcome!</h1> <h2>You are a minor</h2>
+      </div>
+
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
